@@ -1,0 +1,21 @@
+﻿@{
+    ViewData["Title"] = "Landing Page";
+}
+
+<div class="container text-center mt-5">
+    <h1 class="mb-5">Main Menu</h1>
+
+    <!-- Button to Page 1 (Players) -->
+    <div class="mb-5">
+        <a asp-controller="Player" asp-action="Index" class="btn btn-primary btn-lg">
+            Manage Players
+        </a>
+    </div>
+
+    <!-- Placeholder for Page 2 (Game Setup) -->
+    <div>
+        <a asp-controller="StartNewGame" asp-action="Select" class="btn btn-primary btn-lg">
+            Start New Game
+        </a>
+    </div>
+</div>

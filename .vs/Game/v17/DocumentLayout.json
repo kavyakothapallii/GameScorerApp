@@ -1,0 +1,486 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\kavya\\source\\repos\\Game\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5798A8D0-5A06-4E68-B61D-A17772B6106D}|Game\\Game.csproj|c:\\users\\kavya\\source\\repos\\game\\game\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{5798A8D0-5A06-4E68-B61D-A17772B6106D}|Game\\Game.csproj|solutionrelative:game\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5798A8D0-5A06-4E68-B61D-A17772B6106D}|Game\\Game.csproj|c:\\users\\kavya\\source\\repos\\game\\game\\views\\play\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5798A8D0-5A06-4E68-B61D-A17772B6106D}|Game\\Game.csproj|solutionrelative:game\\views\\play\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5798A8D0-5A06-4E68-B61D-A17772B6106D}|Game\\Game.csproj|c:\\users\\kavya\\source\\repos\\game\\game\\controllers\\playcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5798A8D0-5A06-4E68-B61D-A17772B6106D}|Game\\Game.csproj|solutionrelative:game\\controllers\\playcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5798A8D0-5A06-4E68-B61D-A17772B6106D}|Game\\Game.csproj|c:\\users\\kavya\\source\\repos\\game\\game\\models\\roundscoreviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5798A8D0-5A06-4E68-B61D-A17772B6106D}|Game\\Game.csproj|solutionrelative:game\\models\\roundscoreviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5798A8D0-5A06-4E68-B61D-A17772B6106D}|Game\\Game.csproj|c:\\users\\kavya\\source\\repos\\game\\game\\controllers\\startnewgamecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5798A8D0-5A06-4E68-B61D-A17772B6106D}|Game\\Game.csproj|solutionrelative:game\\controllers\\startnewgamecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5798A8D0-5A06-4E68-B61D-A17772B6106D}|Game\\Game.csproj|c:\\users\\kavya\\source\\repos\\game\\game\\views\\startnewgame\\select.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5798A8D0-5A06-4E68-B61D-A17772B6106D}|Game\\Game.csproj|solutionrelative:game\\views\\startnewgame\\select.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5798A8D0-5A06-4E68-B61D-A17772B6106D}|Game\\Game.csproj|c:\\users\\kavya\\source\\repos\\game\\game\\models\\dto\\roundscoredto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5798A8D0-5A06-4E68-B61D-A17772B6106D}|Game\\Game.csproj|solutionrelative:game\\models\\dto\\roundscoredto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5798A8D0-5A06-4E68-B61D-A17772B6106D}|Game\\Game.csproj|c:\\users\\kavya\\source\\repos\\game\\game\\models\\gameround.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5798A8D0-5A06-4E68-B61D-A17772B6106D}|Game\\Game.csproj|solutionrelative:game\\models\\gameround.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5798A8D0-5A06-4E68-B61D-A17772B6106D}|Game\\Game.csproj|c:\\users\\kavya\\source\\repos\\game\\game\\models\\games.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5798A8D0-5A06-4E68-B61D-A17772B6106D}|Game\\Game.csproj|solutionrelative:game\\models\\games.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5798A8D0-5A06-4E68-B61D-A17772B6106D}|Game\\Game.csproj|c:\\users\\kavya\\source\\repos\\game\\game\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5798A8D0-5A06-4E68-B61D-A17772B6106D}|Game\\Game.csproj|solutionrelative:game\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5798A8D0-5A06-4E68-B61D-A17772B6106D}|Game\\Game.csproj|c:\\users\\kavya\\source\\repos\\game\\game\\models\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5798A8D0-5A06-4E68-B61D-A17772B6106D}|Game\\Game.csproj|solutionrelative:game\\models\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5798A8D0-5A06-4E68-B61D-A17772B6106D}|Game\\Game.csproj|c:\\users\\kavya\\source\\repos\\game\\game\\models\\gameplayerscore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5798A8D0-5A06-4E68-B61D-A17772B6106D}|Game\\Game.csproj|solutionrelative:game\\models\\gameplayerscore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5798A8D0-5A06-4E68-B61D-A17772B6106D}|Game\\Game.csproj|c:\\users\\kavya\\source\\repos\\game\\game\\models\\gameplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5798A8D0-5A06-4E68-B61D-A17772B6106D}|Game\\Game.csproj|solutionrelative:game\\models\\gameplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5798A8D0-5A06-4E68-B61D-A17772B6106D}|Game\\Game.csproj|c:\\users\\kavya\\source\\repos\\game\\game\\views\\landing\\landing.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5798A8D0-5A06-4E68-B61D-A17772B6106D}|Game\\Game.csproj|solutionrelative:game\\views\\landing\\landing.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5798A8D0-5A06-4E68-B61D-A17772B6106D}|Game\\Game.csproj|c:\\users\\kavya\\source\\repos\\game\\game\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5798A8D0-5A06-4E68-B61D-A17772B6106D}|Game\\Game.csproj|solutionrelative:game\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5798A8D0-5A06-4E68-B61D-A17772B6106D}|Game\\Game.csproj|c:\\users\\kavya\\source\\repos\\game\\game\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5798A8D0-5A06-4E68-B61D-A17772B6106D}|Game\\Game.csproj|solutionrelative:game\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5798A8D0-5A06-4E68-B61D-A17772B6106D}|Game\\Game.csproj|c:\\users\\kavya\\source\\repos\\game\\game\\views\\player\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5798A8D0-5A06-4E68-B61D-A17772B6106D}|Game\\Game.csproj|solutionrelative:game\\views\\player\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5798A8D0-5A06-4E68-B61D-A17772B6106D}|Game\\Game.csproj|c:\\users\\kavya\\source\\repos\\game\\game\\views\\player\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5798A8D0-5A06-4E68-B61D-A17772B6106D}|Game\\Game.csproj|solutionrelative:game\\views\\player\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5798A8D0-5A06-4E68-B61D-A17772B6106D}|Game\\Game.csproj|c:\\users\\kavya\\source\\repos\\game\\game\\controllers\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5798A8D0-5A06-4E68-B61D-A17772B6106D}|Game\\Game.csproj|solutionrelative:game\\controllers\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5798A8D0-5A06-4E68-B61D-A17772B6106D}|Game\\Game.csproj|c:\\users\\kavya\\source\\repos\\game\\game\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5798A8D0-5A06-4E68-B61D-A17772B6106D}|Game\\Game.csproj|solutionrelative:game\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5798A8D0-5A06-4E68-B61D-A17772B6106D}|Game\\Game.csproj|c:\\users\\kavya\\source\\repos\\game\\game\\controllers\\landingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5798A8D0-5A06-4E68-B61D-A17772B6106D}|Game\\Game.csproj|solutionrelative:game\\controllers\\landingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5798A8D0-5A06-4E68-B61D-A17772B6106D}|Game\\Game.csproj|c:\\users\\kavya\\source\\repos\\game\\game\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5798A8D0-5A06-4E68-B61D-A17772B6106D}|Game\\Game.csproj|solutionrelative:game\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5798A8D0-5A06-4E68-B61D-A17772B6106D}|Game\\Game.csproj|c:\\users\\kavya\\source\\repos\\game\\game\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5798A8D0-5A06-4E68-B61D-A17772B6106D}|Game\\Game.csproj|solutionrelative:game\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5798A8D0-5A06-4E68-B61D-A17772B6106D}|Game\\Game.csproj|c:\\users\\kavya\\source\\repos\\game\\game\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5798A8D0-5A06-4E68-B61D-A17772B6106D}|Game\\Game.csproj|solutionrelative:game\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5798A8D0-5A06-4E68-B61D-A17772B6106D}|Game\\Game.csproj|c:\\users\\kavya\\source\\repos\\game\\game\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5798A8D0-5A06-4E68-B61D-A17772B6106D}|Game\\Game.csproj|solutionrelative:game\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5798A8D0-5A06-4E68-B61D-A17772B6106D}|Game\\Game.csproj|c:\\users\\kavya\\source\\repos\\game\\game\\migrations\\20250816125238_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5798A8D0-5A06-4E68-B61D-A17772B6106D}|Game\\Game.csproj|solutionrelative:game\\migrations\\20250816125238_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5798A8D0-5A06-4E68-B61D-A17772B6106D}|Game\\Game.csproj|c:\\users\\kavya\\source\\repos\\game\\game\\migrations\\20250817114835_addgamesandgameplayers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5798A8D0-5A06-4E68-B61D-A17772B6106D}|Game\\Game.csproj|solutionrelative:game\\migrations\\20250817114835_addgamesandgameplayers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5798A8D0-5A06-4E68-B61D-A17772B6106D}|Game\\Game.csproj|c:\\users\\kavya\\source\\repos\\game\\game\\migrations\\20250817122647_addtotalscoreandisouttogameplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5798A8D0-5A06-4E68-B61D-A17772B6106D}|Game\\Game.csproj|solutionrelative:game\\migrations\\20250817122647_addtotalscoreandisouttogameplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5798A8D0-5A06-4E68-B61D-A17772B6106D}|Game\\Game.csproj|c:\\users\\kavya\\source\\repos\\game\\game\\migrations\\20250818052337_roundsandscores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5798A8D0-5A06-4E68-B61D-A17772B6106D}|Game\\Game.csproj|solutionrelative:game\\migrations\\20250818052337_roundsandscores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\Users\\kavya\\source\\repos\\Game\\Game\\.gitignore",
+              "RelativeDocumentMoniker": "Game\\.gitignore",
+              "ToolTip": "C:\\Users\\kavya\\source\\repos\\Game\\Game\\.gitignore",
+              "RelativeToolTip": "Game\\.gitignore",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAF8SURBVDhPjVNLTgJBEG1lwpoFB3GNK9fieA48hD8iwT/ihwgSDAIHgAGXXsEV18CNzL/LquqZdsYM6kteXqcy3fWqpmpNRBgOhyABBEgpAFVKPIMUcYzUyOU\u002BXM/b2qtU3vkSfRjjZTCAMAw1A2LwzdFoBPP5HNqdzuL27n4juibWI\u002BUshBA1DIkhEx9iEorFotgslQqGYbxxAGFEqt1MxmPWJLbLZdZ\u002Bv89q5PMFPiTR6z2zdaxR0fXA0XTBcVywkb4fwHXjRteecIDNQ7UmExVYAdPcxYaqclN46na5WenMKjtlVnTYwcXlVYaDqImW9beD5N/TeGy32QHXm6hZ03ZgiSQHp2fnWQ4oBmJqWSqwAqZpZjt4aLXAD4J0VqyZsmoubfB8H2r1eoaD6NXZ9HcHO\u002BSA3f4AjifXl8rItOETM8ckB9WTWpYD9RdeZ1PWVWAHWXPQaDb59f/w8LiqHeh1pvGkCaP6qB8yXusoxmuNZ7XmII4O9vGuEF86osuDYRkpYQAAAABJRU5ErkJggg==",
+              "WhenOpened": "2025-08-18T11:37:03.994Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RoundScoreViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\kavya\\source\\repos\\Game\\Game\\Models\\RoundScoreViewModel.cs",
+              "RelativeDocumentMoniker": "Game\\Models\\RoundScoreViewModel.cs",
+              "ToolTip": "C:\\Users\\kavya\\source\\repos\\Game\\Game\\Models\\RoundScoreViewModel.cs",
+              "RelativeToolTip": "Game\\Models\\RoundScoreViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-18T06:24:51.661Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\kavya\\source\\repos\\Game\\Game\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Game\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\kavya\\source\\repos\\Game\\Game\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Game\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAiwA4AAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-14T11:20:51.207Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PlayController.cs",
+              "DocumentMoniker": "C:\\Users\\kavya\\source\\repos\\Game\\Game\\Controllers\\PlayController.cs",
+              "RelativeDocumentMoniker": "Game\\Controllers\\PlayController.cs",
+              "ToolTip": "C:\\Users\\kavya\\source\\repos\\Game\\Game\\Controllers\\PlayController.cs",
+              "RelativeToolTip": "Game\\Controllers\\PlayController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-18T04:35:40.244Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Select.cshtml",
+              "DocumentMoniker": "C:\\Users\\kavya\\source\\repos\\Game\\Game\\Views\\StartNewGame\\Select.cshtml",
+              "RelativeDocumentMoniker": "Game\\Views\\StartNewGame\\Select.cshtml",
+              "ToolTip": "C:\\Users\\kavya\\source\\repos\\Game\\Game\\Views\\StartNewGame\\Select.cshtml",
+              "RelativeToolTip": "Game\\Views\\StartNewGame\\Select.cshtml",
+              "ViewState": "AgIAABEAAAAAAAAAAAAkwCkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-17T12:17:52.774Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "StartNewGameController.cs",
+              "DocumentMoniker": "C:\\Users\\kavya\\source\\repos\\Game\\Game\\Controllers\\StartNewGameController.cs",
+              "RelativeDocumentMoniker": "Game\\Controllers\\StartNewGameController.cs",
+              "ToolTip": "C:\\Users\\kavya\\source\\repos\\Game\\Game\\Controllers\\StartNewGameController.cs",
+              "RelativeToolTip": "Game\\Controllers\\StartNewGameController.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAowEIAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-16T13:12:03.45Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\kavya\\source\\repos\\Game\\Game\\Views\\Play\\Index.cshtml",
+              "RelativeDocumentMoniker": "Game\\Views\\Play\\Index.cshtml",
+              "ToolTip": "C:\\Users\\kavya\\source\\repos\\Game\\Game\\Views\\Play\\Index.cshtml",
+              "RelativeToolTip": "Game\\Views\\Play\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-18T06:13:17.979Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RoundScoreDTO.cs",
+              "DocumentMoniker": "C:\\Users\\kavya\\source\\repos\\Game\\Game\\Models\\DTO\\RoundScoreDTO.cs",
+              "RelativeDocumentMoniker": "Game\\Models\\DTO\\RoundScoreDTO.cs",
+              "ToolTip": "C:\\Users\\kavya\\source\\repos\\Game\\Game\\Models\\DTO\\RoundScoreDTO.cs",
+              "RelativeToolTip": "Game\\Models\\DTO\\RoundScoreDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-18T04:37:28.474Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GameRound.cs",
+              "DocumentMoniker": "C:\\Users\\kavya\\source\\repos\\Game\\Game\\Models\\GameRound.cs",
+              "RelativeDocumentMoniker": "Game\\Models\\GameRound.cs",
+              "ToolTip": "C:\\Users\\kavya\\source\\repos\\Game\\Game\\Models\\GameRound.cs",
+              "RelativeToolTip": "Game\\Models\\GameRound.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-18T05:11:01.829Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "20250818052337_RoundsandScores.cs",
+              "DocumentMoniker": "C:\\Users\\kavya\\source\\repos\\Game\\Game\\Migrations\\20250818052337_RoundsandScores.cs",
+              "RelativeDocumentMoniker": "Game\\Migrations\\20250818052337_RoundsandScores.cs",
+              "ToolTip": "C:\\Users\\kavya\\source\\repos\\Game\\Game\\Migrations\\20250818052337_RoundsandScores.cs",
+              "RelativeToolTip": "Game\\Migrations\\20250818052337_RoundsandScores.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-18T05:23:37.414Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Games.cs",
+              "DocumentMoniker": "C:\\Users\\kavya\\source\\repos\\Game\\Game\\Models\\Games.cs",
+              "RelativeDocumentMoniker": "Game\\Models\\Games.cs",
+              "ToolTip": "C:\\Users\\kavya\\source\\repos\\Game\\Game\\Models\\Games.cs",
+              "RelativeToolTip": "Game\\Models\\Games.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-17T11:09:42.999Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "GamePlayerScore.cs",
+              "DocumentMoniker": "C:\\Users\\kavya\\source\\repos\\Game\\Game\\Models\\GamePlayerScore.cs",
+              "RelativeDocumentMoniker": "Game\\Models\\GamePlayerScore.cs",
+              "ToolTip": "C:\\Users\\kavya\\source\\repos\\Game\\Game\\Models\\GamePlayerScore.cs",
+              "RelativeToolTip": "Game\\Models\\GamePlayerScore.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-18T05:11:38.872Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "GamePlayer.cs",
+              "DocumentMoniker": "C:\\Users\\kavya\\source\\repos\\Game\\Game\\Models\\GamePlayer.cs",
+              "RelativeDocumentMoniker": "Game\\Models\\GamePlayer.cs",
+              "ToolTip": "C:\\Users\\kavya\\source\\repos\\Game\\Game\\Models\\GamePlayer.cs",
+              "RelativeToolTip": "Game\\Models\\GamePlayer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-17T11:11:21.443Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Player.cs",
+              "DocumentMoniker": "C:\\Users\\kavya\\source\\repos\\Game\\Game\\Models\\Player.cs",
+              "RelativeDocumentMoniker": "Game\\Models\\Player.cs",
+              "ToolTip": "C:\\Users\\kavya\\source\\repos\\Game\\Game\\Models\\Player.cs",
+              "RelativeToolTip": "Game\\Models\\Player.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-14T10:51:03.518Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "20250817114835_AddGamesAndGamePlayers.cs",
+              "DocumentMoniker": "C:\\Users\\kavya\\source\\repos\\Game\\Game\\Migrations\\20250817114835_AddGamesAndGamePlayers.cs",
+              "RelativeDocumentMoniker": "Game\\Migrations\\20250817114835_AddGamesAndGamePlayers.cs",
+              "ToolTip": "C:\\Users\\kavya\\source\\repos\\Game\\Game\\Migrations\\20250817114835_AddGamesAndGamePlayers.cs",
+              "RelativeToolTip": "Game\\Migrations\\20250817114835_AddGamesAndGamePlayers.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-17T11:48:36.27Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "20250817122647_AddTotalScoreAndIsOutToGamePlayer.cs",
+              "DocumentMoniker": "C:\\Users\\kavya\\source\\repos\\Game\\Game\\Migrations\\20250817122647_AddTotalScoreAndIsOutToGamePlayer.cs",
+              "RelativeDocumentMoniker": "Game\\Migrations\\20250817122647_AddTotalScoreAndIsOutToGamePlayer.cs",
+              "ToolTip": "C:\\Users\\kavya\\source\\repos\\Game\\Game\\Migrations\\20250817122647_AddTotalScoreAndIsOutToGamePlayer.cs",
+              "RelativeToolTip": "Game\\Migrations\\20250817122647_AddTotalScoreAndIsOutToGamePlayer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-17T12:26:47.513Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Landing.cshtml",
+              "DocumentMoniker": "C:\\Users\\kavya\\source\\repos\\Game\\Game\\Views\\Landing\\Landing.cshtml",
+              "RelativeDocumentMoniker": "Game\\Views\\Landing\\Landing.cshtml",
+              "ToolTip": "C:\\Users\\kavya\\source\\repos\\Game\\Game\\Views\\Landing\\Landing.cshtml",
+              "RelativeToolTip": "Game\\Views\\Landing\\Landing.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-16T10:55:14.847Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\kavya\\source\\repos\\Game\\Game\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Game\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\kavya\\source\\repos\\Game\\Game\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "Game\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-17T12:09:12.853Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\kavya\\source\\repos\\Game\\Game\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Game\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\kavya\\source\\repos\\Game\\Game\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Game\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-14T13:49:42.66Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\kavya\\source\\repos\\Game\\Game\\Views\\Player\\Index.cshtml",
+              "RelativeDocumentMoniker": "Game\\Views\\Player\\Index.cshtml",
+              "ToolTip": "C:\\Users\\kavya\\source\\repos\\Game\\Game\\Views\\Player\\Index.cshtml",
+              "RelativeToolTip": "Game\\Views\\Player\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-14T13:32:54.571Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Add.cshtml",
+              "DocumentMoniker": "C:\\Users\\kavya\\source\\repos\\Game\\Game\\Views\\Player\\Add.cshtml",
+              "RelativeDocumentMoniker": "Game\\Views\\Player\\Add.cshtml",
+              "ToolTip": "C:\\Users\\kavya\\source\\repos\\Game\\Game\\Views\\Player\\Add.cshtml",
+              "RelativeToolTip": "Game\\Views\\Player\\Add.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-14T13:34:58.004Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "PlayerController.cs",
+              "DocumentMoniker": "C:\\Users\\kavya\\source\\repos\\Game\\Game\\Controllers\\PlayerController.cs",
+              "RelativeDocumentMoniker": "Game\\Controllers\\PlayerController.cs",
+              "ToolTip": "C:\\Users\\kavya\\source\\repos\\Game\\Game\\Controllers\\PlayerController.cs",
+              "RelativeToolTip": "Game\\Controllers\\PlayerController.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAowD4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-14T12:05:15.445Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\kavya\\source\\repos\\Game\\Game\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Game\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\kavya\\source\\repos\\Game\\Game\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Game\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-16T10:53:47.814Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "LandingController.cs",
+              "DocumentMoniker": "C:\\Users\\kavya\\source\\repos\\Game\\Game\\Controllers\\LandingController.cs",
+              "RelativeDocumentMoniker": "Game\\Controllers\\LandingController.cs",
+              "ToolTip": "C:\\Users\\kavya\\source\\repos\\Game\\Game\\Controllers\\LandingController.cs",
+              "RelativeToolTip": "Game\\Controllers\\LandingController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-16T10:54:28.049Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\kavya\\source\\repos\\Game\\Game\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Game\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\kavya\\source\\repos\\Game\\Game\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Game\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-16T12:57:58.032Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\kavya\\source\\repos\\Game\\Game\\appsettings.json",
+              "RelativeDocumentMoniker": "Game\\appsettings.json",
+              "ToolTip": "C:\\Users\\kavya\\source\\repos\\Game\\Game\\appsettings.json",
+              "RelativeToolTip": "Game\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-14T11:29:27.787Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\kavya\\source\\repos\\Game\\Game\\Program.cs",
+              "RelativeDocumentMoniker": "Game\\Program.cs",
+              "ToolTip": "C:\\Users\\kavya\\source\\repos\\Game\\Game\\Program.cs",
+              "RelativeToolTip": "Game\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAACNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-14T11:35:13.806Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "20250816125238_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\kavya\\source\\repos\\Game\\Game\\Migrations\\20250816125238_InitialCreate.cs",
+              "RelativeDocumentMoniker": "Game\\Migrations\\20250816125238_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\kavya\\source\\repos\\Game\\Game\\Migrations\\20250816125238_InitialCreate.cs",
+              "RelativeToolTip": "Game\\Migrations\\20250816125238_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-16T12:52:39.058Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\kavya\\source\\repos\\Game\\Game\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Game\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\kavya\\source\\repos\\Game\\Game\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Game\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-14T13:49:40.512Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

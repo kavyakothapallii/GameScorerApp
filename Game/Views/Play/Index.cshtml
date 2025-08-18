@@ -1,0 +1,160 @@
+﻿@model Game.Models.RoundScoreViewModel
+
+<div>
+    <h2>Game Rounds</h2>
+    <table id="gameTable" border="1">
+        <thead>
+            <tr>
+                <th>Round</th>
+                @foreach (var p in Model.Players)
+                {
+                    <th>@p.Name <br /> (Total: <span id="total-@p.Id">0</span>)</th>
+                }
+            </tr>
+        </thead>
+        <tbody id="roundBody"></tbody>
+    </table>
+    <button id="addRoundBtn">Add Round</button>
+    <button id="submitBtn">Submit Round</button>
+</div>
+
+@section Scripts {
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+
+            var players = @Html.Raw(System.Text.Json.JsonSerializer.Serialize(Model.Players ?? new List<Game.Models.Player>()));
+            var maxScore = @Model?.MaxScore ?? 100;
+            var roundNumber = 1;
+            var gameId = @Model?.GameId ?? 0;
+
+            var activePlayers = new Set(players.map(p => p.Id)); // track who is still in
+
+            addRound();
+
+            document.getElementById('addRoundBtn').addEventListener('click', addRound);
+
+            function addRound() {
+                if (roundNumber > 10) {
+                    declareWinner();
+                    return;
+                }
+                if (activePlayers.size <= 1) {
+                    declareWinner();
+                    return;
+                }
+
+                var tbody = document.getElementById('roundBody');
+                var tr = document.createElement('tr');
+                tr.setAttribute('data-round', roundNumber);
+
+                // Round number
+                var tdRound = document.createElement('td');
+                tdRound.innerText = roundNumber;
+                tr.appendChild(tdRound);
+
+                // Score inputs
+                players.forEach(player => {
+                    var td = document.createElement('td');
+                    if (activePlayers.has(player.Id)) {
+                        var input = document.createElement('input');
+                        input.type = 'number';
+                        input.min = 0;
+                        input.value = 0;
+                        input.classList.add('score-input');
+                        input.dataset.playerId = player.Id;
+                        input.dataset.round = roundNumber;
+                        td.appendChild(input);
+                    } else {
+                        td.innerText = "OUT";
+                    }
+                    tr.appendChild(td);
+                });
+
+                tbody.appendChild(tr);
+                roundNumber++;
+            }
+
+            function updateTotals() {
+                players.forEach(player => {
+                    let total = 0;
+                    document.querySelectorAll(`input[data-player-id='${player.Id}']`).forEach(input => {
+                        total += parseInt(input.value) || 0;
+                    });
+                    let totalEl = document.getElementById(`total-${player.Id}`);
+                    if (totalEl) {
+                        totalEl.innerText = total;
+                        if (total >= maxScore) {
+                            totalEl.style.color = "red";
+                            activePlayers.delete(player.Id);
+                            disablePlayerInputs(player.Id);
+                        } else {
+                            totalEl.style.color = "black";
+                        }
+                    }
+                });
+            }
+
+            // ✅ FIXED: don’t reset score when out
+            function disablePlayerInputs(playerId) {
+                document.querySelectorAll(`input[data-player-id='${playerId}']`).forEach(input => {
+                    input.disabled = true;   // disable further editing
+                    // keep the entered score as-is (do NOT overwrite with "X")
+                });
+            }
+
+            function declareWinner() {
+                if (activePlayers.size === 1) {
+                    let winnerId = Array.from(activePlayers)[0];
+                    let winner = players.find(p => p.Id === winnerId);
+                    alert("🏆 Winner: " + winner.Name);
+                } else {
+                    // Lowest score wins after 10 rounds
+                    let lowest = Infinity, winner = null;
+                    players.forEach(p => {
+                        let total = parseInt(document.getElementById(`total-${p.Id}`).innerText) || 0;
+                        if (total < lowest) {
+                            lowest = total;
+                            winner = p;
+                        }
+                    });
+                    alert("🏆 Winner (by lowest score): " + winner.Name);
+                }
+
+                // Disable further input
+                document.querySelectorAll("input.score-input").forEach(inp => inp.disabled = true);
+                document.getElementById("addRoundBtn").disabled = true;
+                document.getElementById("submitBtn").disabled = true;
+            }
+
+            // Submit round
+            document.getElementById('submitBtn').addEventListener('click', function () {
+                var lastRound = document.querySelector('#gameTable tbody tr:last-child');
+                if (!lastRound) return alert('No round to submit');
+
+                var scores = [];
+                lastRound.querySelectorAll('input.score-input').forEach(input => {
+                    scores.push({
+                        PlayerId: parseInt(input.dataset.playerId),
+                        Score: parseInt(input.value) || 0
+                    });
+                });
+
+                fetch(`/api/play/${gameId}/round`, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ Scores: scores })
+                })
+                .then(r => {
+                    if (r.ok) {
+                        updateTotals();
+                        alert('✅ Round submitted!');
+                    } else {
+                        r.text().then(t => alert('Error: ' + t));
+                    }
+                })
+                .catch(err => alert('Network error: ' + err));
+            });
+
+        });
+    </script>
+}
