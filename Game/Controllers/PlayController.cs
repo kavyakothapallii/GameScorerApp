@@ -41,10 +41,9 @@ namespace Game.Controllers
         public IActionResult GetGame(int gameId)
         {
             var game = _db.Games
-                .Include(g => g.GamePlayers)
-                .ThenInclude(gp => gp.Player)
-                .Include(g => g.GameRounds)
-                .ThenInclude(r => r.GamePlayerScores)
+                .Include(g => g.GamePlayers).ThenInclude(gp => gp.Player)
+                .Include(g => g.GameRounds).ThenInclude(r => r.GamePlayerScores)
+                .Include(g => g.Winner) // load winner if exists
                 .FirstOrDefault(g => g.Id == gameId);
 
             if (game == null) return NotFound();
@@ -69,7 +68,8 @@ namespace Game.Controllers
                 MaxScore = game.MaxScore,
                 CurrentRound = game.GameRounds.Count + 1,
                 Players = players,
-                Rounds = rounds
+                Rounds = rounds,
+                Winner = game.Winner != null ? game.Winner.Name : null
             });
         }
 
@@ -78,8 +78,9 @@ namespace Game.Controllers
         public IActionResult SubmitRound(int gameId, [FromBody] RoundScoreDTO roundScores)
         {
             var game = _db.Games
-                .Include(g => g.GamePlayers)
+                .Include(g => g.GamePlayers).ThenInclude(gp => gp.Player)
                 .Include(g => g.GameRounds)
+                .Include(g => g.Winner)
                 .FirstOrDefault(g => g.Id == gameId);
 
             if (game == null) return NotFound();
@@ -112,17 +113,25 @@ namespace Game.Controllers
                 _db.GamePlayerScores.Add(roundScore);
             }
 
+            // Check if game has a winner (last player not out)
+            var activePlayers = game.GamePlayers.Where(p => !p.IsOut).ToList();
+            if (activePlayers.Count == 1 && game.Winner == null)
+            {
+                game.Winner = activePlayers.First().Player;  // ✅ assign Player object, not string
+            }
+
             _db.SaveChanges();
 
-            // Return updated totals
             return Ok(new
             {
                 Message = "Round submitted",
                 Players = game.GamePlayers.Select(gp => new {
                     gp.PlayerId,
+                    gp.Player.Name,
                     gp.TotalScore,
                     gp.IsOut
-                })
+                }),
+                Winner = game.Winner != null ? game.Winner.Name : null
             });
         }
     }

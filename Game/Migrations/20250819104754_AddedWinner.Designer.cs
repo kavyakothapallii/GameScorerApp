@@ -4,6 +4,7 @@ using Game.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Game.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    partial class AppDbContextModelSnapshot : ModelSnapshot
+    [Migration("20250819104754_AddedWinner")]
+    partial class AddedWinner
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -86,6 +89,9 @@ namespace Game.Migrations
                     b.Property<DateTime>("CreatedDate")
                         .HasColumnType("datetime2");
 
+                    b.Property<bool>("IsCompleted")
+                        .HasColumnType("bit");
+
                     b.Property<int>("MaxScore")
                         .HasColumnType("int");
 
@@ -93,8 +99,6 @@ namespace Game.Migrations
                         .HasColumnType("int");
 
                     b.HasKey("Id");
-
-                    b.HasIndex("WinnerId");
 
                     b.ToTable("Games");
                 });
@@ -165,16 +169,6 @@ namespace Game.Migrations
                         .IsRequired();
 
                     b.Navigation("GameRound");
-                });
-
-            modelBuilder.Entity("Game.Models.Games", b =>
-                {
-                    b.HasOne("Game.Models.Player", "Winner")
-                        .WithMany()
-                        .HasForeignKey("WinnerId")
-                        .OnDelete(DeleteBehavior.Restrict);
-
-                    b.Navigation("Winner");
                 });
 
             modelBuilder.Entity("GameRound", b =>
