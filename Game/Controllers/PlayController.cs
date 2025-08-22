@@ -42,7 +42,7 @@ namespace Game.Controllers
             var game = _db.Games
                 .Include(g => g.GamePlayers).ThenInclude(gp => gp.Player)
                 .Include(g => g.GameRounds).ThenInclude(r => r.GamePlayerScores)
-                .Include(g => g.Winner) // load winner if exists
+                .Include(g => g.Winner) 
                 .FirstOrDefault(g => g.Id == gameId);
 
             if (game == null) return NotFound();
