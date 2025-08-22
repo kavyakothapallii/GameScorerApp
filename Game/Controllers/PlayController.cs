@@ -16,7 +16,7 @@ namespace Game.Controllers
             _db = db;
         }
 
-        // GET: /Play/Index/{gameId}
+
         public IActionResult Index(int gameId)
         {
             var game = _db.Games
@@ -36,7 +36,6 @@ namespace Game.Controllers
             return View(model);
         }
 
-        // GET API: /api/play/{gameId}
         [HttpGet("api/play/{gameId}")]
         public IActionResult GetGame(int gameId)
         {
@@ -73,7 +72,7 @@ namespace Game.Controllers
             });
         }
 
-        // POST API: /api/play/{gameId}/round
+
         [HttpPost("api/play/{gameId}/round")]
         public IActionResult SubmitRound(int gameId, [FromBody] RoundScoreDTO roundScores)
         {
@@ -85,7 +84,7 @@ namespace Game.Controllers
 
             if (game == null) return NotFound();
 
-            // Create new round
+
             var round = new GameRound
             {
                 GameId = game.Id,
@@ -94,7 +93,7 @@ namespace Game.Controllers
             _db.GameRounds.Add(round);
             _db.SaveChanges();
 
-            // Update player scores
+
             foreach (var score in roundScores.Scores)
             {
                 var gp = game.GamePlayers.FirstOrDefault(x => x.PlayerId == score.PlayerId);
@@ -113,11 +112,10 @@ namespace Game.Controllers
                 _db.GamePlayerScores.Add(roundScore);
             }
 
-            // Check if game has a winner (last player not out)
             var activePlayers = game.GamePlayers.Where(p => !p.IsOut).ToList();
             if (activePlayers.Count == 1 && game.Winner == null)
             {
-                game.Winner = activePlayers.First().Player;  // ✅ assign Player object, not string
+                game.Winner = activePlayers.First().Player;  
             }
 
             _db.SaveChanges();

@@ -19,12 +19,11 @@ namespace Game.Data
         {
             base.OnModelCreating(modelBuilder);
 
-            // Relationship: A Game can have one Winner (Player)
             modelBuilder.Entity<Games>()
                 .HasOne(g => g.Winner)
                 .WithMany()
                 .HasForeignKey(g => g.WinnerId)
-                .OnDelete(DeleteBehavior.Restrict); // Prevent cascading delete
+                .OnDelete(DeleteBehavior.Restrict); 
         }
     }
 }

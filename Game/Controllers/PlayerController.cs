@@ -15,20 +15,18 @@ namespace Game.Controllers
             _context = context;
         }
 
-        // GET: Player List
+
         public IActionResult Index()
         {
             var players = _context.Players.OrderBy(p => p.Name).ToList();
             return View(players);
         }
 
-        // GET: Add Player
         public IActionResult Add()
         {
             return View();
         }
 
-        // POST: Add Player
         [HttpPost]
         [ValidateAntiForgeryToken]
         public IActionResult Add(Player player)
@@ -47,7 +45,7 @@ namespace Game.Controllers
             return View(player);
         }
 
-        // GET: Delete Player
+     
         public IActionResult Delete(int id)
         {
             var player = _context.Players.Find(id);

@@ -14,14 +14,14 @@ namespace Game.Controllers
             _db = db;
         }
 
-        // Page 1 - list of players
+
         public IActionResult Index()
         {
             var list = _db.Players.ToList();
             return View(list);
         }
 
-        // Page 2 - GET: show selection form
+
         [HttpGet]
         public IActionResult Select()
         {
@@ -29,11 +29,11 @@ namespace Game.Controllers
             return View(players);
         }
 
-        // Page 2 - POST: submit selected players and max score
+ 
         [HttpPost]
         public IActionResult Select(int maxscore, int[] selected)
         {
-            // Validation
+    
             if (selected == null || selected.Length < 2)
             {
                 ModelState.AddModelError("", "Minimum of 2 players needed");
@@ -46,7 +46,7 @@ namespace Game.Controllers
                 return View(_db.Players.ToList());
             }
 
-            // Create new game
+
             var game = new Games
             {
                 MaxScore = maxscore,
@@ -59,11 +59,11 @@ namespace Game.Controllers
                 }).ToList()
             };
 
-            // Add game (EF Core automatically sets GameId in GamePlayers)
+    
             _db.Games.Add(game);
             _db.SaveChanges();
 
-            // Redirect to GameRounds page with the new game's ID
+  
             return RedirectToAction("Index", "Play", new { gameId = game.Id });
         }
     }
